@@ -1,6 +1,6 @@
 path: ../datasets/coco # dataset root dir
 train: train.txt # train images (relative to 'path')
-val: val.txt # val images (relative to 'path')
+val: valid.txt # val images (relative to 'path')
 test: test.txt
 
 # Classes
