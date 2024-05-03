@@ -1,0 +1,15 @@
+path: ../datasets/coco # dataset root dir
+train: train_encoded.txt # train images (relative to path)
+val: valid_encoded.txt # val images (relative to path)
+test: test_encoded.txt
+
+# Classes
+names:
+  0 : helm-on_vest-on_boots-on
+  1 : helm-on_vest-on_boots-off
+  2 : helm-on_vest-off_boots-on
+  3 : helm-on_vest-off_boots-off
+  4 : helm-off_vest-on_boots-on
+  5 : helm-off_vest-on_boots-off
+  6 : helm-off_vest-off_boots-on
+  7 : helm-off_vest-off_boots-off
